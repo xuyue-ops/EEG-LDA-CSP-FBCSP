@@ -39,11 +39,11 @@ Mutual Information is used to select the most discriminative features.
 
 ## 📊 Results
 
-| Method     | Accuracy |
+| Method     | Mean+std|
 | ---------- | -------- |
-| CSP        | XX%      |
-| FBCSP      | XX%      |
-| FBCSP + FS | XX%      |
+| CSP        | 0.8677+0.0353|
+| FBCSP      | 0.9584 ± 0.0137   |
+| FBCSP + FS | 0.9653 ± 0.0218    |
 
 ---
 
@@ -72,7 +72,7 @@ python experiments/run_fbcsp.py
 
 ## 👤 Author
 
-[Your Name]
+[AYueyue]
 
 ---
 
@@ -80,3 +80,4 @@ python experiments/run_fbcsp.py
 
 This project is built as a research-oriented implementation for EEG signal processing and machine learning.
 # EEG-LDA-CSP-FBCSP
+For detailed explanation, see my CSDN blog.qq_68018270
